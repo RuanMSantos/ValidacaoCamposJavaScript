@@ -1,0 +1,50 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+
+fieldset {
+    flex-direction: column;
+    margin-left: 720px;
+    border-radius: 20px;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    padding: 60px;
+}
+
+legend {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    color: cadetblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+#btn {
+    box-shadow: black 0px 15px 10px -10px;
+    border: 0.1 solid gray;
+    transition: all 0.3s;
+    border-radius: 6px;
+    font-size: 50px;
+    height: 200px;
+}
+
+#btn:hover {
+    background-color: cadetblue;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#bt {
+    font-weight: bold;
+    color: deeppink;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+}
+
+#bt:hover {
+    cursor: pointer;
+}
